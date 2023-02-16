@@ -22,15 +22,16 @@ import HomeStack from './navigations/HomeStack';
 import { NavigationContainer } from '@react-navigation/native';
 import BottomTab from './navigations/BottomTab';
 import RootStack from './navigations/RootStack';
-
-
+import VRU from './screens/week12/VRU';
+import Menumix from './screens/week12/Menumix';
 export default function App() {
   return (
-    <NavigationContainer>
-            {/* <HomeStack /> */}
-            {/* <BottomTab/> */}
-            <RootStack />
-        </NavigationContainer>
+    // <NavigationContainer>
+    //         {/* <HomeStack /> */}
+    //         {/* <BottomTab/> */}
+    //         <RootStack />
+    //     </NavigationContainer>
+    <Menumix />
   );
 }
 
