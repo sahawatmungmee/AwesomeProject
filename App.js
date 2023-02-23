@@ -26,12 +26,12 @@ import VRU from './screens/week12/VRU';
 import Menumix from './screens/week12/Menumix';
 export default function App() {
   return (
-    // <NavigationContainer>
-    //         {/* <HomeStack /> */}
-    //         {/* <BottomTab/> */}
-    //         <RootStack />
-    //     </NavigationContainer>
-    <Menumix />
+     <NavigationContainer>
+            {/* <HomeStack /> */}
+            {/* <BottomTab/> */}
+            <RootStack />
+       </NavigationContainer>
+    
   );
 }
 
